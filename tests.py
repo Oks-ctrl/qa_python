@@ -94,7 +94,7 @@ class TestBooksCollector:
         favorites = collector.get_list_of_favorites_books()
         assert favorites == ["Книга1"]
     
-    def test_get_books_genre_returns_current_dict():
+    def test_get_books_genre_returns_current_dict(self):
         collector = BooksCollector()  
         book_name = 'Властелин колец'
         genre = 'Фантастика'
